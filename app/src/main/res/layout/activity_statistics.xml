@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StatisticsActivity">
+
+    <TextView
+        android:id="@+id/lblStatsThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="185dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginEnd="186dp"
+        android:text="Three"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblStatsTwo" />
+
+    <TextView
+        android:id="@+id/lblStatsTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="191dp"
+        android:text="Two"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblStatsOne" />
+
+    <Button
+        android:id="@+id/btnRapidGameStatsDisplay"
+        android:layout_width="127dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="66dp"
+        android:text="Rapid Fire Game"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnUnGameStatsDisplay"
+        app:layout_constraintTop_toBottomOf="@+id/lblStatsUsername" />
+
+    <TextView
+        android:id="@+id/lblStatisticsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="166dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="167dp"
+        android:text="Statistics"
+        android:textSize="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnStatisticsBack"
+        android:layout_width="33dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="29dp"
+        android:background="@drawable/baseline_arrow_back_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lblStatsUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="172dp"
+        android:text="Username:"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblStatisticsTitle" />
+
+    <Button
+        android:id="@+id/btnUnGameStatsDisplay"
+        android:layout_width="127dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="29dp"
+        android:text="Unlimited Game"
+        app:layout_constraintEnd_toStartOf="@+id/btnRapidGameStatsDisplay"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblStatsUsername" />
+
+    <TextView
+        android:id="@+id/lblStatsOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="191dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="192dp"
+        android:text="One"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblStatsSubheadingTitle" />
+
+    <TextView
+        android:id="@+id/lblStatsSubheadingTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="182dp"
+        android:layout_marginTop="118dp"
+        android:layout_marginEnd="183dp"
+        android:text="Title"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblStatsUsername" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

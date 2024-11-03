@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseGameModeActivity">
+
+    <Button
+        android:id="@+id/btnChooseGameOptions"
+        android:layout_width="47dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="62dp"
+        android:background="@drawable/baseline_settings_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnChooseGameStats"
+        android:layout_width="46dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="62dp"
+        android:background="@drawable/baseline_bar_chart_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnChooseModeBack"
+        android:layout_width="33dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="29dp"
+        android:background="@drawable/baseline_arrow_back_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnUnGameChoice"
+        android:layout_width="162dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="138dp"
+        android:layout_marginEnd="125dp"
+        android:text="Unlimited Game"
+        app:layout_constraintBottom_toTopOf="@+id/btnRapidGameChoice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblChooseTitle" />
+
+    <TextView
+        android:id="@+id/lblChooseTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="117dp"
+        android:layout_marginEnd="177dp"
+        android:text="Choose Game Mode"
+        android:textSize="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnRapidGameChoice"
+        android:layout_width="162dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="313dp"
+        android:text="Rapid Fire Game"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnUnGameChoice" />
+</androidx.constraintlayout.widget.ConstraintLayout>
