@@ -6,9 +6,9 @@ Made in Android Studio using Kotlin as part of my college graded unit.
 ## Features
 * Multiple choice questions that provide instant feedback to the player upon answering
 * Basic user account system
-* Two game modes (Standard & rapid fire)
-* Options menu that contains accesibility settings
+* Two game modes (Unlimited & rapid fire)
 * Statistics tracking
+* Options menu that contains accesibility settings
 
 ## Screenshots
 ### Choose Game Mode
